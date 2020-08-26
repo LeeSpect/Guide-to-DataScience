@@ -8,7 +8,7 @@ iphone_df = pd.read_csv('Desktop/iphone.csv', index_col=0)
 
 iphone_df
 
-#출시일	디스플레이	메모리	출시 버전	Face ID
+#             출시일	디스플레이	메모리	출시 버전	Face ID
 #iPhone 7	2016-09-16	4.7	2GB	iOS 10.0	No
 #iPhone 7 Plus	2016-09-16	5.5	3GB	iOS 10.0	No
 #iPhone 8	2017-09-22	4.7	2GB	iOS 11.0	No
