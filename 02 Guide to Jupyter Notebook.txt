@@ -8,3 +8,18 @@ Shift + Enter = 셀 실행 후 아래 셀 선택 / 셀 실행 후 (아래에 셀
 
 Kernel + Restart & Clear Output = 새로운 세션을 시작
 Kernel + Restart & Run All = 새로운 세션을 시작하고, 모든 셀을 순서대로 실행
+
+Cell type을 Code에서 Markdown으로 변경하면 설명글 작성 가능
+# 가장 큰 제목
+## 두 번째 큰 제목
+### 세 번째 큰 제목
+
+글을 **두껍게** 쓸 수도 있고, *날려* 쓸 수도 있습니다.
+
+이렇게 리스트를 만들 수도 있습니다.
+* list item 1
+* list item 2
+* list item 3
+-> ・list item 1
+-> ・list item 2
+-> ・list item 3
