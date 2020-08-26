@@ -4,4 +4,7 @@ a = 위에 셀 추가
 dd = 셀 삭제
 
 Alt + Enter = 셀 실행 후 아래에 셀 생성
-Shift + Enter = 셀 실행 후 아래 셀 선택 / 셀 실행 후 (아래에 셀이 없다면) 아래에 셀 
+Shift + Enter = 셀 실행 후 아래 셀 선택 / 셀 실행 후 (아래에 셀이 없다면) 아래에 셀 추가
+
+Kernel + Restart & Clear Output = 새로운 세션을 시작
+Kernel + Restart & Run All = 새로운 세션을 시작하고, 모든 셀을 순서대로 실행
