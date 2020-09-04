@@ -1,3 +1,6 @@
+# 각 파트가 최소 250점, 총 점수가 최소 600점이 되어야 서류 전형을 합격할 수 있습니다.
+# 기존 DataFrame에 “합격 여부”라는 column을 추가하고, 합격한 지원자는 불린 값 True, 불합격한 지원자는 불린 값 False를 넣어주면 됩니다.
+
 import pandas as pd
     
 df = pd.read_csv('data/toeic.csv')
