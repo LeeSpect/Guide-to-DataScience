@@ -133,3 +133,30 @@ for course in closed_courses:
     df.loc[df["course name"] == course, "status"] = "not allowed"
     
 df
+
+
+
+# for문 없는 
+'''
+--------------------------------------------------------------------------------------------------------------
+import pandas as pd
+
+df = pd.read_csv('data/enrolment_1.csv')
+
+# 코드를 작성하세요.
+df['status'] = 'allowed'
+
+condition1 = (df['course name']=='information technology') & (df['year']==1)
+condition2 = (df['course name']=='commerce') & (df['year']==4)
+
+apply_num = df['course name'].value_counts()
+condition3 = apply_num[df['course name']] < 5
+condition3 = pd.Series(condition3.values)
+
+condition = condition1 | condition2 | condition3
+
+df.loc[condition, 'status'] = 'not allowed'
+# 정답 출력
+df
+--------------------------------------------------------------------------------------------------------------
+'''
