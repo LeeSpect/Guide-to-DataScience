@@ -1,0 +1,21 @@
+https://www.ikea.com/catalog/news?sorting=price&pageNumber=4
+
+https = 소통 방식
+기본적으로 http를 사용하고, 보안을 요할 때 https를 사용함
+
+www.ikea.com = 도메인 이름
+
+/catalog/news = 경로
+도메인에서 어떤 페이지를 보여줄 지 결정
+
+물음표(?) 뒤에 나오는 것들 = 쿼리 스트링(파라미터)
+페이지의 옵션 등을 넘겨주는 것
+sorting=price = 가격순 정렬
+& = 또다른 파라미터
+pageNumber=4 = 4 페이지
+
+다른 예시
+https://en.wikipedia.org/wiki/Computer_programming#Debugging
+
+#Debugging = 위치 지정
+URL을 입력하면 보통 페이지의 최상단으로 이동하게 되는데 위치를 지정해주면 페이지의 Debugging이라는 부분으로 이동하게 됨
